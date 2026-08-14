@@ -7,4 +7,4 @@ no_of_people = int(input("Enter number of people you want to divide the bill wit
 
 splited_bill = total_bill / no_of_people 
 print("-------------------------------")
-print("The bill per person is: ", "Rs", splited_bill)
+print("The bill per person is: ", "Rs.", splited_bill)

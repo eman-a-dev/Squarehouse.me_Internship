@@ -3,8 +3,8 @@ print("          UNIT CONVERTER        ")
 print("================================")
 
 choose = input("Please select from the options below \n - LENGTH \n 1. Meter -> Kilometer \n " 
-"2. Kilometer -> Meter \n - WEIGHT \n 3. Kilogram -> Gram \n 4. Gram -> Kilogram \n - TEMPERATURE \n 5. Celsius ->Fahrenheit \n " 
-"6. Fahrenheit -> Celsius \n write the seleted number and press enter: ")
+"2. Kilometer -> Meter \n - WEIGHT \n 3. Kilogram -> Gram \n 4. Gram -> Kilogram \n - TEMPERATURE \n " 
+"5. Celsius ->Fahrenheit \n 6. Fahrenheit -> Celsius \n write the seleted number and press enter: ")
 print("----------------------------------------------------------------")
 # FOR LENGTH
 if(choose == "1"):

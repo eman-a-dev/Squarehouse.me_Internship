@@ -38,10 +38,3 @@
 
 # USD_to_PKR_coverter()
 
-#wAP that takes list as a paramter and print second largest number in the list
-
-def second_Largest_num(list_num):
-    list_num.sort 
-    print(list_num-1)
-
-second_Largest_num([1, 2, 34, 67, 3, 8, 90, 7])
