@@ -1,5 +1,5 @@
 print("----------------------------------")
-print("         BMI CALCULATOR      ")
+print("         BMI CALCULATOR           ")
 print("----------------------------------")
 
 weight= int(input("Please enter yout body weight in kg: "))

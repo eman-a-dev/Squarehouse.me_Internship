@@ -46,6 +46,8 @@ grade.sort()
 print ("The sorted grades are: ", grade)
 
 
+#yahan dictionary wale solved hain!!
+
 #WAP to enter marks of 3 subjects from the user and store them in a dictionary start with an empty dictionary and add one by one user subject names as key and marks as value 
 
 marks = {}
