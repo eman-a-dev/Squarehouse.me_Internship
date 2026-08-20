@@ -98,21 +98,21 @@ company = "SQUAREHOUSE.ME"
 
 #Write a function that accepts a dictionary of student marks and returns the student with the highest mark.
 
-def highest_marks(dict):
-    max_marks = max(dict.values())
-    print(max_marks)
+# def highest_marks(dict):
+#     max_marks = max(dict.values())
+#     print(max_marks)
 
+# marks = {
+#     "std1": 60,
+#     "std2": 70,
+#     "std3": 80,
+#     "std4": 90   
+# }
 
+# highest_marks(marks)
 
+#Write a function that counts vowels in a string.
 
-marks = {
-    "std1": 60,
-    "std2": 70,
-    "std3": 80,
-    "std4": 90   
-}
-
-highest_marks(marks)
 
 #Recursive functions
 
@@ -137,4 +137,3 @@ highest_marks(marks)
 # veg = ["onion", "potato", "ladyfinger"]
 
 # elements(veg)
-
