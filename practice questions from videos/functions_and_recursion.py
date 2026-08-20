@@ -118,22 +118,31 @@
 
 #Create a function find_duplicates(items) that returns duplicate elements from a list using a set.
 
-def find_duplicates(items):
-    seen = set()
-    duplicates = set()
+# def find_duplicates(items):
+#     seen = set()
+#     duplicates = set()
 
-    for item in items:
-        if item in seen:
-            duplicates.add(item)
-        else:
-            seen.add(item)
+#     for item in items:
+#         if item in seen:
+#             duplicates.add(item)
+#         else:
+#             seen.add(item)
 
-    return duplicates
+#     return duplicates
 
 
-num = [1, 4, 8, 5, 6, 8, 6, 4, 2, 7, 8]
+# num = [1, 4, 8, 5, 6, 8, 6, 4, 2, 7, 8]
 
-print(find_duplicates(num))
+# print(find_duplicates(num))
+
+
+
+
+
+
+
+
+
 
 #Recursive functions
 
@@ -158,4 +167,47 @@ print(find_duplicates(num))
 # veg = ["onion", "potato", "ladyfinger"]
 
 # elements(veg)
+
+#Write a recursive function to print numbers from 1 to n.
+# def numbers(n):
+#    if n == 0:
+#       return
+#    numbers(n-1)
+#    print(n)
+
+
+# numbers(5)
+
+#1. Write a recursive function to calculate factorial of a number.
+
+# def factorial(n):
+#     if n == 0 or n == 1:
+#         return 1
+    
+#     return n * factorial(n-1)
+
+# print(factorial(5))
+
+#Write a recursive function to calculate base raised to power, without using **.
+
+# def base_power_calculator(power, base):
+#     if power == 1:
+#         return base
+
+#     return base_power_calculator(power - 1 , base) * base
+
+# print(base_power_calculator(4, 3))
+
+#Write a recursive function to find the sum of all values in a list.
+
+# def sum_list(list):
+#     if len(list) == 0:
+#         return 0
+
+#     return list[0] + sum_list(list[1:])
+
+
+# num = [1,3,4,5,6,78,9]
+
+# print(sum_list(num))
 
